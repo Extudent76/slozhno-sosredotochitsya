@@ -12,3 +12,17 @@
   --visible-element: none;
 }
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-color:  #fff1f7;
+    --title-text-color: #FFC2E6;
+    --title-shadow-color: #FF8DCB;
+    --section-title-color: #353430;
+    --title-decor-color: #FF8DCB;
+    --botumn-color: #353430;
+    --title-paragraph-color: #353430;
+    --card-paragraph-color: #353430;
+    --header-img: url(../images/cover-image-light.png);
+    --hover-color: #32312D66;
+  }
+}
