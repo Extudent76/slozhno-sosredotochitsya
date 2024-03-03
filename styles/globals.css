@@ -42,26 +42,3 @@ a {
   line-height: inherit;
 }
 
-.header__theme-menu-button:hover {
-  border: 1px solid var(--hover-color);
-}
-
-.header__theme-menu-button:focus {
-  outline: none;
-}
-
-.header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--hover-color);
-}
-
-.main__section-link:hover {
-  border-bottom: 1px solid var(--card-paragraph-color);
-}
-
-.main__section-link:focus {
-  outline: none;
-}
-
-.main__section-link:focus-visible {
-  border: 1px solid var(--card-paragraph-color);
-}
