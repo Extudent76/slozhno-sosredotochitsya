@@ -24,5 +24,6 @@
     --card-paragraph-color: #353430;
     --header-img: url(../images/cover-image-light.png);
     --hover-color: #32312D66;
+    --visible-element: none;
   }
 }
