@@ -331,6 +331,7 @@
 
 @media (width >= 1024px) {
   .header__theme-menu {
+    position: relative;
     justify-self: center;
     align-self: start;
   }
