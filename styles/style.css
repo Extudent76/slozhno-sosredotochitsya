@@ -95,7 +95,6 @@
   border: none;
   padding: 0px 12px;
   background-color: transparent;
-  letter-spacing: 0%;
   text-transform: lowercase;
   text-align: center;
   cursor: pointer;
@@ -237,11 +236,14 @@
 @media (width >= 768px) {
 
   .header {
-    padding: 20px 20px 20px 0px;
+    padding: 20px;
+
   }
 
   .header__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: var(--logo-size, clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem)); 
+    position: relative;
+    inset-inline-start: -20px;
   }
 
   .decorated-zone::before {
@@ -323,7 +325,7 @@
   }
 
   .footer__title {
-    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: var(--logo-size, clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem)); 
   }
 
 }
@@ -332,6 +334,7 @@
 @media (width >= 1024px) {
   .header__theme-menu {
     position: relative;
+
     justify-self: center;
     align-self: start;
   }
