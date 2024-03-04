@@ -229,7 +229,7 @@
   justify-self: center;
   align-self: center;
   color: var(--title-text-color);
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: var(--logo-size);
   line-height: 82.5%;
   text-shadow: 4px 4px 0px var(--title-shadow-color);
 }
@@ -348,5 +348,7 @@
   .main__section-what .main__section-card {
     grid-template-columns: repeat(3, 1fr);
   }
+
+
 
 }
