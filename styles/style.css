@@ -241,7 +241,6 @@
   }
 
   .header__title {
-    font-size: var(--logo-size); 
     position: relative;
     inset-inline-start: -20px;
   }
@@ -322,10 +321,6 @@
   .main__section-image:nth-of-type(5) {
     grid-column: 2 / span 2;
     grid-row: 4 / span 1;
-  }
-
-  .footer__title {
-    font-size: var(--logo-size);
   }
 
 }
